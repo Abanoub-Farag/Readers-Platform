@@ -1,0 +1,79 @@
+
+# =========================
+# IDE & Editors
+# =========================
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+!.env.example
+!.env.template
+secrets/
+credentials/
+*.pem
+*.key
+
+# =========================
+# Dependencies
+# =========================
+node_modules/
+.venv/
+venv/
+
+# =========================
+# Build & Distribution
+# =========================
+build/
+dist/
+out/
+target/
+coverage/
+
+# =========================
+# Cache
+# =========================
+.cache/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.gradle/
+.npm/
+.pnpm-store/
+
+# =========================
+# Logs & Temporary
+# =========================
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+*.bak
+*.pid
+
+# =========================
+# Database
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================
+# Docker
+# =========================
+docker-data/
